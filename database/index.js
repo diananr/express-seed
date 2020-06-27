@@ -1,4 +1,5 @@
 var mysql = require('mysql');
+require('dotenv').config();
 
 connection = mysql.createPoolCluster();
 connection.add("MASTER", {
